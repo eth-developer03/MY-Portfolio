@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { FaLocationArrow } from "react-icons/fa6";
 
@@ -41,7 +42,7 @@ export const Hero = () => {
           Hello! I&apos;m {links.ownerName}, a tech enthusiast from India.
           </p>
 
-          <Link href="#about" className="md:mt-10">
+          <Link href="#projects" className="md:mt-10">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
